@@ -13,6 +13,8 @@ body {
   background-image: linear-gradient(to right, rgb(243, 57, 57),rgb(97, 97, 97));
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -57,11 +59,11 @@ padding: 30px;
   transition: 1s;
   border:none;
   cursor: pointer;
-  background-color: rgb(187, 185, 185);
+  background-color: rgb(161, 151, 151);
   border-radius: 10px;
 }
 .btn1:hover{
-  background-color: aquamarine;
+  background-color: rgb(87, 238, 87);
   box-shadow: 0px 0px 5px 1px gray;
   transition: 1s;
 }
@@ -69,6 +71,18 @@ padding: 30px;
   width:25%;
   height: 6vh;
   margin-left: 5px;
+}
+.btn2:hover{
+background-color: aqua;
+}
+.btn3:hover{
+background-color: rgb(102, 196, 228);
+}
+.input{
+  font-size: 20px;
+}
+.btn4:hover{
+background-color: red;
 }
 
 
@@ -85,19 +99,29 @@ padding: 30px;
   height: 100%;
   width:30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .classlist{
   text-decoration: line-through;
 }
 .delicon{
-  color:gray;
+  color:rgb(41, 39, 39);
   transition: 1s;
   margin-right: 10px;
+  margin-right: 65px;
 }
 .delicon:hover{
   transition: 1s;
 color:red;
 cursor: pointer;
+}
+.boxxx{
+  background-image: linear-gradient(to right top, aqua,rgb(243, 162, 10));
+
+}
+.boxi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

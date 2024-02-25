@@ -5,7 +5,7 @@ function Main() {
   const [item, setItem] = useState("");
   const [newItem, setNewItem] = useState([]);
   const [status, setStatus] = useState("Äll");
-  console.log(status , 'ss');
+  // console.log(status , 'ss');
 
   const itemEvent = (event) => {
     setItem(event.target.value);
@@ -80,11 +80,13 @@ function Main() {
 
   return (
     <div>
+    <h1>TODO List</h1>
       <div className="main">
         <div className="second">
           <input
             type="text"
             value={item}
+            className="input"
             placeholder="Enter the Work"
             onChange={itemEvent}
           />

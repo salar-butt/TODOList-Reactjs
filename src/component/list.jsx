@@ -8,8 +8,8 @@ function List({ data, handleChecked, deleteItem }) {
   return data.map((task, index) => {
     console.log(task , 'task')
     return (
-      <div key={index}>
-        <div className='checkbox' style={{ backgroundColor: "orange" }}>
+      <div key={index} className='boxi'>
+        <div className='checkbox boxxx' >
           <div className='box2'>
             <input
               type="checkbox"
